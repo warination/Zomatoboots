@@ -1,0 +1,197 @@
+
+.navbar{
+    background-color: rgba(23, 23, 75, 0.596);
+}
+
+.logo-image{
+    width: 100px;
+    
+}
+
+.nav-item{
+    margin-left: 15px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.mainWallpaper{
+    background-image: url(img/wallpaper.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.mainLogo{
+    text-align: center;
+
+}
+.mainLogoImage{
+    width: 200px;
+    margin-top: 150px;
+
+}
+
+.descriptionMain{
+    margin-top: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.searchBar{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.city{
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    border-radius: 6px;
+}
+.restaurent{
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+.cardOrder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.cardBody{
+    width: 43%;
+    margin: 15px;
+    box-shadow: 8px 5px 5px rgba(238, 53, 7, 0.61);
+
+}
+
+.cardImage{
+    width: 100%;
+    height: 200px;
+}
+
+
+.tileHeading{
+    color: purple;
+    margin-top: 20px;
+    
+}
+
+
+.tileSubheading{
+    font-size: 14px;
+}
+.row{
+    
+
+}
+
+.menuMain{
+    display: flex;
+    height: 200px;
+    box-shadow: 8px 7px 3px rgba(221, 157, 157, 0.342);
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menuMain:hover{
+    transform: scale(1.1);
+}
+
+
+
+.imageMenu{
+    width: 50%;
+    height: 200px;
+    background-color: white;
+    
+}
+
+
+.menuMain h4{
+    color: firebrick;
+    font-size: 20px;
+}
+
+.menuMain a{
+    text-decoration: none;
+    color: firebrick;
+
+}
+
+.menuMain p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgba(246, 244, 248, 0.897);
+    margin-top: 30px;
+}
+.logoLanguage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.languageCountry{
+    margin-left: 10px;
+    height: 30px;
+    width: 80px;
+
+}
+.footer-text{
+    margin-top: 10px;
+}
+
+.footer-text h5{
+    font-size: 16px;
+}
+
+.footer-text p{
+    font-size: 12px;
+}
+
+.icon{
+    font-size: 20px;
+    margin: 2px;
+}
+.downloadImage{
+    width: 100px;
+}
