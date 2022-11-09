@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="home.js"></script>
 
 
 
@@ -103,21 +104,16 @@
 
         <div class="searchBar">
             <span>
-                <select name="" id="" class="city">
-                    <option value=""><i class="bi bi-geo-alt">Ranchi</i></option>
-                    <option value="">Jamshedpur</option>
-                    <option value="">Bokaro</option>
-                    <option value="">Dhanbad</option>
+                <select name="" id="city" class="city" onchange="getRest()">
+                    <option value=""><i class="bi bi-geo-alt">-----Select City-----</i></option>
+                    
                 </select>
             </span>
             <span>
-                <select name="" id="" class="restaurent">
+                <select name="" id="restaurent" class="restaurent">
                     <option value="" disabled selected>-----Select Restaurent-----</option>
 
-                    <option value="">Kaveri Restaurent</option>
-                    <option value="">Wow Momos</option>
-                    <option value="">KFC Restaurent</option>
-                    <option value="">Domino's Pizza</option>
+                    
                 </select>
             </span>
         </div>
@@ -396,6 +392,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+        <script>window.onload = getCity()</script>
 </body>
 
 </html>
