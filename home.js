@@ -4,6 +4,8 @@ const restUrl = "http://zomatoajulypi.herokuapp.com/restaurant?stateId=";
 const getCity = async() =>{
     let response = await fetch(cityUrl,{method:"GET"})
     let data = await response.json()
+    const cityName = document.querySelector('#cityname')
+
 
     data.map((item) =>{
         let eliment = document.createElement('option')
@@ -11,6 +13,8 @@ const getCity = async() =>{
         eliment.value = item.state_id
         eliment.appendChild(text)
         document.querySelector('#city').appendChild(eliment)
+        cityName.innerText = item.state
+        
     })
 }
 
@@ -34,3 +38,4 @@ const getRest = async() =>{
         rest.appendChild(eliment)
     })
 }
+
